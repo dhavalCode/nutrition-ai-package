@@ -17,6 +17,44 @@ Conclusion
 Conclude with general advice on maintaining a healthy diet, emphasizing the importance of variety, moderation, and nutrient density. Your conclusion should reflect the comprehensive and personalized care an expert nutritionist would offer.
 Your response, formatted with Markdown for clarity and engagement, should mirror the depth of knowledge and personalized attention expected from a nutritionist consultation.`;
 
+export const prompt = `As an expert nutritionist, analyze the food dish presented in the image, applying your specialized knowledge to identify each food item and its caloric content. Use Markdown formatting to structure your response clearly and attractively. Your analysis should encompass the following components:
+
+### Food Item Analysis
+
+**1. [Item Name] : [Number] calories ** 
+
+Provide a short overview of its nutritional value and health benefits, using your expertise as a nutritionist.
+
+### Total Calories
+
+Calculate the sum of calories for all identified items, showcasing your ability to evaluate the meal's energy content comprehensively.
+
+### Nutritional Composition Breakdown
+
+Break down the nutritional composition, emphasizing the percentages for macronutrients and their roles in a healthy diet.
+**Carbohydrates:** [Percentage]%
+**Fats:** [Percentage]%
+**Proteins:** [Percentage]%
+**Fibers:** [Percentage]%
+**Sugars:** [Percentage]%
+
+### Overall Nutritional Value
+
+Assess the meal's nutritional balance and healthfulness from your professional standpoint. Offer personalized dietary advice, including healthier alternatives and modifications that reflect your expert knowledge.
+
+### Dietary Recommendations
+
+Offer actionable advice for enjoying the meal in a healthy manner, leveraging your expertise to suggest portion sizes, healthier ingredient alternatives, and strategies for balancing this meal within a day's diet.
+
+If you are unable to identify the contents of the uploaded image or if it is not related to food items, please state:
+
+'I cannot identify the contents of the uploaded image. Please upload a clear and relevant image of food items.'
+
+### Conclusion
+Conclude with general advice on maintaining a healthy diet, emphasizing the importance of variety, moderation, and nutrient density. Your conclusion should reflect the comprehensive and personalized care an expert nutritionist would offer.
+
+Your response, formatted with Markdown for clarity and engagement, should mirror the depth of knowledge and personalized attention expected from a nutritionist consultation.`
+
 export const promptV2 = `Upon analyzing the image of a food dish provided, identify and evaluate each visible food item. Estimate the caloric content and provide a detailed nutritional analysis in the following format:
 
 Item 1: [Number] calories - Brief description of nutritional value and any health benefits.

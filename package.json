@@ -1,7 +1,7 @@
 {
   "name": "nutrition-ai",
   "description": "A comprehensive wrapper providing expert nutritional analysis for food-related images. Leverage the power of a google gemini pro vision model to identify food items, calculate caloric content, and receive personalized dietary recommendations.",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

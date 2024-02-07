@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { z } from "zod";
-import { promptV1 } from "./template";
+import { prompt } from "./template";
 
 export async function generateAnswer(input: generateAnswerInput) {
   const validated = validateInputSchema.safeParse(input);
@@ -32,7 +32,7 @@ export async function generateAnswer(input: generateAnswerInput) {
 
     const genModel = genAI.getGenerativeModel({ model: model });
 
-    const result = await genModel.generateContent([promptV1, imagePart]);
+    const result = await genModel.generateContent([prompt, imagePart]);
 
     const response = await result.response;
 
